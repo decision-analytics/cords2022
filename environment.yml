@@ -2,6 +2,7 @@ name: cords2022
 channels:
 - fastai
 - conda-forge
+- gurobi
 - defaults
 dependencies:
 - python=3.9
@@ -15,5 +16,6 @@ dependencies:
 - numba
 - ngboost
 - statsmodels
+- scikit-optimize
 - pip:
   - mip
